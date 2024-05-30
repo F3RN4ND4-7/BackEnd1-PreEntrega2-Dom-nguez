@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 💫 Accio Products </title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1 onclick="openAddProductAlert()" title="Agrega un nuevo producto">💫 Accio Products🫴🏻</h1>
+    <h2><a href="http://localhost:8080"> < </a></h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Code</th>
+            <th>Stock</th>
+            <th>Category</th>
+            <th></th>
+        </tr>
+    </thead>
+
+        <tbody id="ptb"></tbody>
+    </table>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
+
